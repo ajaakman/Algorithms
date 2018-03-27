@@ -12,9 +12,9 @@ void SelectionSort(int a[], int n)
 				j = k;
 			}
 		}
-		int t = a[i];
-		a[i] = a[j];
-		a[j] = t;			
+			int t = a[i];
+			a[i] = a[j];
+			a[j] = t;			
 	}
 }
 
