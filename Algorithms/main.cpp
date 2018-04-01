@@ -2,10 +2,10 @@
 
 void SelectionSort(int a[], int n)
 {
-	for (int i = 1; i <= n; i++)
+	for (int i = 0; i < n; i++)
 	{
 		int j = i;
-		for (int k = i + 1; k <= n; k++)
+		for (int k = i + 1; k < n; k++)
 		{
 			if (a[k] < a[j])
 			{
