@@ -1,6 +1,8 @@
 #include <iostream>
-#include "SelectionSort.h"
 #include "PrintArray.h"
+#include "SelectionSort.h"
+#include "TowersOfHanoi.h"
+
 
 
 int main()
@@ -13,6 +15,8 @@ int main()
 
 	printArray(a, sizeof(a) / sizeof(a[0]));
 	
+	TowersOfHanoi(4, A, B, C);		
+
 	system("pause");
 	return 0;
 }

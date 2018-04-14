@@ -1,19 +1,19 @@
 #pragma once
 
-void SelectionSort(int a[], int n)
+void SelectionSort(int array[], int length)
 {
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < length; i++)
 	{
 		int j = i;
-		for (int k = i + 1; k < n; k++)
+		for (int k = i + 1; k < length; k++)
 		{
-			if (a[k] < a[j])
+			if (array[k] < array[j])
 			{
 				j = k;
 			}
 		}
-		int t = a[i];
-		a[i] = a[j];
-		a[j] = t;
+		int t = array[i];
+		array[i] = array[j];
+		array[j] = t;
 	}
 }
