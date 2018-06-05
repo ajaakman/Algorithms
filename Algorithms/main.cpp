@@ -6,11 +6,22 @@
 #include "TowersOfHanoi.h"
 #include "SumArray.h"
 #include "Fibonacci.h"
-
+#include "GreatestCommonDivisor.h"
 
 
 int main()
 {
+	//---------------------------- -------------------------------------
+	
+	
+	
+	//----------------------------Greatest Common Divisor-------------------------------------
+	
+	// Euclid's algorithm. Used to find the greatest common divisor. Lowest integer that divides both numbers.
+	
+	//std::cout << GreatesCommonDivisor(200, 300) << std::endl;
+	
+	
 	// ------------------------------Selection Sort------------------------------------------
 
 	// Sorting an integer array.
@@ -41,11 +52,7 @@ int main()
 	// Calculates the n-th number of the Fibonacci sequence.
 	
 	//Fibonacci(5);
-
-
-	//----------------------------------- -------------------------------------------
-
-
+	
 
 	std::cin.get();
 	return 0;

@@ -20,19 +20,22 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SelectionSort.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PrintArray.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TowersOfHanoi.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="SumArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Fibonacci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TowersOfHanoi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LowestCommonDivisor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
