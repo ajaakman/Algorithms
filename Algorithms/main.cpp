@@ -5,6 +5,8 @@
 #include "SelectionSort.h"
 #include "TowersOfHanoi.h"
 #include "SumArray.h"
+#include "Fibonacci.h"
+
 
 
 int main()
@@ -34,7 +36,15 @@ int main()
 	//std::cout << SumArray(b, sizeof(b) / sizeof(b[0])) << std::endl;
 
 
-	//----------------------------------- --------------------------------------------
+	//-----------------------------------Fibonacci--------------------------------------------
+
+	// Calculates the n-th number of the Fibonacci sequence.
+	
+	//Fibonacci(5);
+
+
+	//----------------------------------- -------------------------------------------
+
 
 
 	std::cin.get();
