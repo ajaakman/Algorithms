@@ -29,5 +29,8 @@
     <ClInclude Include="TowersOfHanoi.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="SumArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

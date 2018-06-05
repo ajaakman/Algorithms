@@ -1,22 +1,42 @@
+#pragma once
+
 #include <iostream>
 #include "PrintArray.h"
 #include "SelectionSort.h"
 #include "TowersOfHanoi.h"
-
+#include "SumArray.h"
 
 
 int main()
 {
-	int a[6] = { 5, 4, 0, 1, 3, 2 };
+	// ------------------------------Selection Sort------------------------------------------
 
-	printArray(a, sizeof(a) / sizeof(a[0]));
+	// Sorting an integer array.
 	
-	SelectionSort( a , (sizeof(a) / sizeof(a[0])) );
+	//int a[6] = { 5, 4, 0, 1, 3, 2 };
+	//PrintArray(a, sizeof(a) / sizeof(a[0]));
+	//SelectionSort( a , (sizeof(a) / sizeof(a[0])) );
+	//PrintArray(a, sizeof(a) / sizeof(a[0]));	
 
-	printArray(a, sizeof(a) / sizeof(a[0]));
+
+	// -----------------------------TOWERS OF HANOI------------------------------------------
+
+	// Recursive function that solves the Towers of Hanoi puzzle.
 	
-	TowersOfHanoi(4, A, B, C);		
+	//TowersOfHanoi(3);	// Takes number of plates as the argument.	
 
-	system("pause");
+
+	//-----------------------------------Sum Array--------------------------------------------
+
+	// Returns the sum of all elements of an array.
+
+	//int b[6] = { 7, 4, 0, 1, 3, 2 };	
+	//std::cout << SumArray(b, sizeof(b) / sizeof(b[0])) << std::endl;
+
+
+	//----------------------------------- --------------------------------------------
+
+
+	std::cin.get();
 	return 0;
 }

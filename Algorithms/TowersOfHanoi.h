@@ -1,9 +1,10 @@
 #pragma once
+
 #include <iostream>
 
 enum tower { A = 'A', B = 'B', C = 'C' };
 
-void TowersOfHanoi(int n, tower x, tower y, tower z)
+void TowersOfHanoi(int n, tower x = A, tower y = B, tower z = C)
 {
 	if (n)
 	{
