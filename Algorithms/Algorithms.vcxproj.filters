@@ -38,5 +38,8 @@
     <ClInclude Include="GreatestCommonDivisor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PrimeNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

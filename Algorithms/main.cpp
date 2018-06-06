@@ -7,13 +7,19 @@
 #include "SumArray.h"
 #include "Fibonacci.h"
 #include "GreatestCommonDivisor.h"
-
+#include "PrimeNumbers.h"
+	
 
 int main()
 {
 	//---------------------------- -------------------------------------
-	
-	
+
+
+	//----------------------------------Prime Numbers----------------------------------------
+
+	// Prints all prime numbers under 1000. Sieve of Eratosthenes.
+   
+	//PrimeNumbers();
 	
 	//----------------------------Greatest Common Divisor-------------------------------------
 	
