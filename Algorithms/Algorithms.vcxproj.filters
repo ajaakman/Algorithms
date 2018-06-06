@@ -35,7 +35,7 @@
     <ClInclude Include="TowersOfHanoi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LowestCommonDivisor.h">
+    <ClInclude Include="GreatestCommonDivisor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

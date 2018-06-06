@@ -119,7 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fibonacci.h" />
-    <ClInclude Include="LowestCommonDivisor.h" />
+    <ClInclude Include="GreatestCommonDivisor.h" />
     <ClInclude Include="PrintArray.h" />
     <ClInclude Include="SelectionSort.h" />
     <ClInclude Include="SumArray.h" />
