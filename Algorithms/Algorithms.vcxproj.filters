@@ -47,5 +47,8 @@
     <ClInclude Include="Exponentiate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SequentialSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

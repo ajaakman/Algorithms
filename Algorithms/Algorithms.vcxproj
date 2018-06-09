@@ -125,6 +125,7 @@
     <ClInclude Include="PrimeNumbers.h" />
     <ClInclude Include="PrintArray.h" />
     <ClInclude Include="SelectionSort.h" />
+    <ClInclude Include="SequentialSearch.h" />
     <ClInclude Include="SumArray.h" />
     <ClInclude Include="TowersOfHanoi.h" />
   </ItemGroup>

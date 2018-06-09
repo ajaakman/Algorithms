@@ -10,17 +10,24 @@
 #include "PrimeNumbers.h"
 #include "LinkedLists.h"
 #include "Exponentiate.h"
-	
+#include "SequentialSearch.h"	
 
 int main()
 {
 	//---------------------------- -------------------------------------
 
+	//------------------------------Sequential Search---------------------------------------
+	
+	// Find first matching element in an array.
+
+	int a[6] = { 5, 4, 0, 1, 3, 2 };
+	std::cout << SequentialSearch(a, 3, sizeof(a) / sizeof(a[0]));
+
 	//---------------------------------Exponentiate------------------------------------------
 
 	// Calculate exponent.
 
-	std::cout << Exponentiate(4,4) << std::endl;
+	//std::cout << Exponentiate(4,4) << std::endl;
 
 	//---------------------------------Linked Lists------------------------------------------
 
