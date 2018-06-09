@@ -9,17 +9,24 @@
 #include "GreatestCommonDivisor.h"
 #include "PrimeNumbers.h"
 #include "LinkedLists.h"
+#include "Exponentiate.h"
 	
 
 int main()
 {
 	//---------------------------- -------------------------------------
 
+	//---------------------------------Exponentiate------------------------------------------
+
+	// Calculate exponent.
+
+	std::cout << Exponentiate(4,4) << std::endl;
+
 	//---------------------------------Linked Lists------------------------------------------
 
 	// Using linked lists to solve the "Josephus Problem".
 	
-	LinkedLists(10, 4);
+	//LinkedLists(10, 4);
 
 	//---------------------------------Prime Numbers-----------------------------------------
 
