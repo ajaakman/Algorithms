@@ -8,14 +8,20 @@
 #include "Fibonacci.h"
 #include "GreatestCommonDivisor.h"
 #include "PrimeNumbers.h"
+#include "LinkedLists.h"
 	
 
 int main()
 {
 	//---------------------------- -------------------------------------
 
+	//---------------------------------Linked Lists------------------------------------------
 
-	//----------------------------------Prime Numbers----------------------------------------
+	// Using linked lists to solve the "Josephus Problem".
+	
+	LinkedLists(10, 4);
+
+	//---------------------------------Prime Numbers-----------------------------------------
 
 	// Prints all prime numbers under 1000. Sieve of Eratosthenes.
    
